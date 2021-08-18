@@ -21,6 +21,10 @@ Fork of the privacy-respecting, hackable metasearch engine
 
 **Demo:** https://demo.yunohost.org/searx/
 
+## WARNING
+
+This is not a ready to use package. Right now It will use the same path as the Searx package. This is just a test!!
+
 ## Screenshots
 
 ![](./doc/screenshots/Screenshot.png)
