@@ -6,7 +6,7 @@ It shall NOT be edited by hand.
 # SearxNG for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/searxng.svg)](https://dash.yunohost.org/appci/app/searxng)  
-[![Install Searx with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=searx)
+[![Install Searx with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=searxng)
 
 
 > *This package allows you to install SearxNG quickly and simply on a YunoHost server.
@@ -15,7 +15,7 @@ Thanks to [opi](https://github.com/opi) for the original Yunohost Searx package.
 
 ## Overview
 
-Fork of the privacy-respecting, hackable metasearch engine
+Fork of the privacy-respecting, hackable metasearch engine.
 
 **Shipped version:** 1.0.0~ynh3
 
