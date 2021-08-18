@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # SearxNG for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/searx.svg)](https://dash.yunohost.org/appci/app/searx) ![](https://ci-apps.yunohost.org/ci/badges/searx.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/searx.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/searxng.svg)](https://dash.yunohost.org/appci/app/searxng)  
 [![Install Searx with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=searx)
 
 
