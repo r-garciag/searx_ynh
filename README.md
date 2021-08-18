@@ -8,10 +8,10 @@ It shall NOT be edited by hand.
 [![Integration level](https://dash.yunohost.org/integration/searx.svg)](https://dash.yunohost.org/appci/app/searx) ![](https://ci-apps.yunohost.org/ci/badges/searx.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/searx.maintain.svg)  
 [![Install Searx with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=searx)
 
-*[Lire ce readme en français.](./README_fr.md)*
 
 > *This package allows you to install SearxNG quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.
+Thanks to [opi](https://github.com/opi) for the original Yunohost Searx package.*
 
 ## Overview
 
@@ -34,7 +34,7 @@ Fork of the privacy-respecting, hackable metasearch engine
 * YunoHost documentation for this app: https://yunohost.org/app_searx
 * Report a bug: https://github.com/YunoHost-Apps/searx_ynh/issues
 
-## Developer info
+## Developer info: NOT YET
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/searx_ynh/tree/testing).
 
