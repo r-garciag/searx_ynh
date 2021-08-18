@@ -88,7 +88,7 @@ ynh_setup_source --dest_dir="$final_path"
 #=================================================
 # INSTALL SEARX IN A VIRTUALENV
 #=================================================
-ynh_script_progression --message="Installing Searx..." --weight=2
+ynh_script_progression --message="Installing SearxNG..." --weight=2
 
 python3 -m venv --system-site-packages "$final_path"
 set +u; source $final_path/bin/activate; set -u
@@ -98,7 +98,7 @@ pip3 install --requirement $final_path/requirements-ynh.txt --no-cache-dir
 #=================================================
 # CONFIGURE SEARX
 #=================================================
-ynh_script_progression --message="Configuring Searx..." --weight=2
+ynh_script_progression --message="Configuring SearxNG..." --weight=2
 
 secret_key=$(ynh_string_random)
 
@@ -113,14 +113,14 @@ chown -R $app: $final_path
 #=================================================
 # CONFIGURE UWSGI FOR SEARX
 #=================================================
-ynh_script_progression --message="Configuring uWSGI for Searx..." --weight=2
+ynh_script_progression --message="Configuring uWSGI for SearxNG..." --weight=2
 
 ynh_add_uwsgi_service
 
 #=================================================
 # CHECK SEARX STARTING
 #=================================================
-ynh_script_progression --message="Starting Searx..." --weight=4
+ynh_script_progression --message="Starting SearxNG..." --weight=4
 
 # Wait for Searx to be fully started
 ynh_systemd_action --service_name=uwsgi-app@$app.service --action=start --line_match="spawned uWSGI master process" --log_path="/var/log/uwsgi/$app/$app.log"
@@ -149,4 +149,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of Searx completed" --last
+ynh_script_progression --message="Installation of SearxNG completed" --last
