@@ -1,6 +1,6 @@
 {
-	"name": "Searx",
-	"id": "searx",
+	"name": "SearxNG",
+	"id": "searxng",
 	"packaging_format": 1,
 	"description": {
 		"en": "Privacy-respecting, hackable metasearch engine",
@@ -14,7 +14,7 @@
         "website": "https://searx.github.io/searx/",
         "demo": "https://demo.yunohost.org/searx/",
         "admindoc": "https://github.com/searx/searx/wiki",
-        "userdoc": "https://yunohost.org/apps",
+        "userdoc": "https://searx.github.io/searx/user/index.html",
         "code": "https://github.com/searx/searx"
     },
 	"license": "AGPL-3.0-or-later",
