@@ -8,7 +8,7 @@
 		"de": "Meta-Suchmaschine, die den Privatsphäre wahrt und 'hackable' ist."
 	},
 	"version": "1.0.0~ynh3",
-	"url": "https://searx.github.io/searx/",
+	"url": "https://github.com/searxng/searxng",
 	"upstream": {
         "license": "AGPL-3.0-or-later",
         "website": "https://searx.github.io/searx/",
@@ -19,8 +19,8 @@
     },
 	"license": "AGPL-3.0-or-later",
 	"maintainer": {
-		"name": "opi",
-		"email": "opi@zeropi.net"
+		"name": "test",
+		"email": "test@test.com"
 	},
 	"requirements": {
         "yunohost": ">= 4.2.4"
