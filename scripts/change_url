@@ -107,7 +107,7 @@ fi
 #=================================================
 # RECONFIGURING SEARX
 #=================================================
-ynh_script_progression --message="Reconfiguring Searx..." --weight=2
+ynh_script_progression --message="Reconfiguring SearxNG..." --weight=2
 
 #ynh_replace_string --match_string="base_url : https://${old_domain}${old_path%/}/" --replace_string="base_url : https://${new_domain}${new_path%/}/" --target_file="$final_path/searx/settings.yml"
 
@@ -116,7 +116,7 @@ ynh_script_progression --message="Reconfiguring Searx..." --weight=2
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting Searx..." --weight=2
+ynh_script_progression --message="Starting SearxNG..." --weight=2
 
 ynh_systemd_action --service_name=uwsgi-app@$app.service --action=restart --line_match="spawned uWSGI master process" --log_path="/var/log/uwsgi/$app/$app.log"
 
@@ -131,4 +131,4 @@ ynh_systemd_action --service_name=nginx --action=reload
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Change of URL completed for Searx" --last
+ynh_script_progression --message="Change of URL completed for SearxNG" --last
